@@ -31,7 +31,7 @@ if(app_mode=="Home"):
     st.markdown("""
     Welcome to the Plant Disease Recognition System! 🌿🔍
     
-    Our mission is to help in identifying plant diseases efficiently. Upload an image of a plant, and our system will analyze it to detect any signs of diseases. Together, let's protect our crops and ensure a healthier harvest!
+    Our mission is to help Farmers in identifying plant diseases efficiently. Upload an image of a plant, and our system will analyze it to detect any signs of diseases. Together, let's protect our crops and ensure a healthier harvest!
 
     ### How It Works
     1. **Upload Image:** Go to the **Disease Recognition** page and upload an image of a plant with suspected diseases.
@@ -55,12 +55,18 @@ elif(app_mode=="About"):
     st.header("About")
     st.markdown("""
                 #### About Dataset
-                This dataset is recreated using offline augmentation from the original dataset.The original dataset can be found on this github repo.
-                This dataset consists of about 87K rgb images of healthy and diseased crop leaves which is categorized into 38 different classes.The total dataset is divided into 80/20 ratio of training and validation set preserving the directory structure.
-                A new directory containing 33 test images is created later for prediction purpose.
+                This dataset is recreated by first combining 2 freely available datasets on kaggle.com. One of them has 20k+ images and other had 87k+ images. We took the top 35 classes of crop diseases for efficient working of model.
                 #### Content
                 1. train (11558 images)
                 2. validation (2344 images)
+
+                #### About Team
+                This is our term project by Group#1 done under the guidance of Mr. Rakesh Bairathi Sir. Team Members:
+                1. Kanan Agarwal
+                2. Devashish Tushar
+                3. Rama Swarnkar
+                4. Rakshita Agrawal
+                5. Rahul Bairwa
 
                 """)
 
